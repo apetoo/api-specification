@@ -16,7 +16,7 @@ public class ResultDemoController {
 
   @GetMapping("/getUserInfo")
   public ApiResult<Integer> getUserInfo () {
-    return null;
+    return ApiResult.<Integer>builder().error().build();
   }
 
 

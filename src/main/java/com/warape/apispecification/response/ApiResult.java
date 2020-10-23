@@ -10,8 +10,9 @@ import com.warape.apispecification.constant.CommonStatusConstants;
  *
  * @author: 万明宇 (warApe)
  **/
-public class ApiResult<T> implements Serializable {
+public class ApiResult<T> extends BsaeResult implements Serializable {
 
+  private static final long serialVersionUID = -1;
 
   private Integer code;
   private String message;
