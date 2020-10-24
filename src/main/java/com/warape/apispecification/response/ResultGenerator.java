@@ -1,8 +1,6 @@
 package com.warape.apispecification.response;
 
 
-import com.warape.apispecification.constant.CommonConstants;
-import com.warape.apispecification.constant.CommonConstants.ResponseEnum;
 import com.warape.apispecification.constant.CommonStatusConstants;
 
 /**

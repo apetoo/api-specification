@@ -12,7 +12,7 @@ import lombok.Data;
  **/
 @Data
 @Builder
-public class PageResult<T> extends BsaeResult implements Serializable {
+public class PageResult<T> extends BaseResult implements Serializable {
 
   private static final long serialVersionUID = -1;
   private Integer code;

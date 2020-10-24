@@ -9,7 +9,7 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
  * @author wanmingyu
  * @create 2020/10/23 5:05 下午
  */
-public class BsaeResult {
+public class BaseResult {
 
   @JsonIgnore
   private List<Integer> systemCodeList = new ArrayList<>();
